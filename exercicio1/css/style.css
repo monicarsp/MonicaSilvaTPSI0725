@@ -1,4 +1,54 @@
-body {
+[15:20, 29/01/2026] Mónica Silva: body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+}
+
+nav {
+  background: #2f3e3e;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.valor {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input,
+.form textarea {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.form textarea {
+  height: 100px;
+}
+
+.form button {
+  width: 120px;
+  padding: 8px;
+}
+[15:21, 29/01/2026] Mónica Silva: body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
